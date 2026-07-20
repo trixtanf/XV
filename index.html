@@ -1,1 +1,30 @@
+<button id="abrirFormulario">
+    Confirmar asistencia
+</button>
 
+<div id="formulario" class="modal">
+    <form id="rsvpForm">
+        <input
+            type="text"
+            placeholder="Nombre completo"
+            required
+        >
+
+        <select required>
+            <option>¿Asistirás?</option>
+            <option>Sí asistiré</option>
+            <option>No podré asistir</option>
+        </select>
+
+        <input
+            type="number"
+            placeholder="Número de acompañantes"
+            min="0"
+            max="10"
+        >
+
+        <button type="submit">
+            Enviar
+        </button>
+    </form>
+</div>
